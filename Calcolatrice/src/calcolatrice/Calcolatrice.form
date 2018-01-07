@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="tagExpShown" min="-2" pref="224" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="number7" max="32767" attributes="0"/>
+                          <Component id="number1" max="32767" attributes="0"/>
+                          <Component id="changeSign" pref="99" max="32767" attributes="0"/>
+                          <Component id="number4" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="delete" pref="99" max="32767" attributes="0"/>
+                          <Component id="number0" max="32767" attributes="0"/>
+                          <Component id="number2" max="32767" attributes="0"/>
+                          <Component id="number5" max="32767" attributes="0"/>
+                          <Component id="number8" pref="99" max="32767" attributes="0"/>
+                          <Component id="openCircularParenthesis" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="square" pref="101" max="32767" attributes="0"/>
+                          <Component id="decimalPoint" max="32767" attributes="0"/>
+                          <Component id="number3" max="32767" attributes="0"/>
+                          <Component id="number6" max="32767" attributes="0"/>
+                          <Component id="number9" pref="101" max="32767" attributes="0"/>
+                          <Component id="closeCircularParenthesis" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="divideSign" max="32767" attributes="0"/>
+                          <Component id="equalSign" pref="94" max="32767" attributes="0"/>
+                          <Component id="additionsign" max="32767" attributes="0"/>
+                          <Component id="subtractSign" max="32767" attributes="0"/>
+                          <Component id="multiplySign" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="101" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Component id="tagExpShown" min="-2" pref="34" max="-2" attributes="0"/>
+              <EmptySpace pref="66" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="openCircularParenthesis" alignment="3" min="-2" pref="88" max="-2" attributes="0"/>
+                  <Component id="closeCircularParenthesis" alignment="3" min="-2" pref="88" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="divideSign" pref="88" max="32767" attributes="0"/>
+                  <Component id="delete" max="32767" attributes="0"/>
+                  <Component id="square" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="number7" pref="88" max="32767" attributes="0"/>
+                  <Component id="number8" max="32767" attributes="0"/>
+                  <Component id="number9" max="32767" attributes="0"/>
+                  <Component id="multiplySign" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="subtractSign" pref="85" max="32767" attributes="0"/>
+                  <Component id="number5" alignment="1" max="32767" attributes="0"/>
+                  <Component id="number4" alignment="1" max="32767" attributes="0"/>
+                  <Component id="number6" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="additionsign" pref="86" max="32767" attributes="0"/>
+                  <Component id="number1" max="32767" attributes="0"/>
+                  <Component id="number2" max="32767" attributes="0"/>
+                  <Component id="number3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="equalSign" pref="88" max="32767" attributes="0"/>
+                  <Component id="decimalPoint" alignment="0" max="32767" attributes="0"/>
+                  <Component id="number0" alignment="0" max="32767" attributes="0"/>
+                  <Component id="changeSign" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="changeSign">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xb1;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="changeSignActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="number0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="decimalPoint">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=","/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="number1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="number2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="number3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="number4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="number5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="number6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="6"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="number7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="7"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="number8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="8"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="number9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="9"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="equalSign">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="="/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="equalSignActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="additionsign">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="subtractSign">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="multiplySign">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="divideSign">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tagExpShown">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="delete">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="square">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="X&#xb2;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="closeCircularParenthesis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=")"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="openCircularParenthesis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="("/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gestoreNumeri"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
