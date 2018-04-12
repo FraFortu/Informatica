@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cliente.view.ClientInterfaceController">
+   <children>
+      <SplitPane dividerPositions="0.3779264214046823" layoutX="200.0" layoutY="114.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="280.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="122.0" layoutY="111.0" prefHeight="17.0" prefWidth="52.0" text="Nome" AnchorPane.topAnchor="111.0" />
+                  <Label alignment="CENTER" layoutX="122.0" layoutY="182.0" text="Cognome" AnchorPane.topAnchor="182.0" />
+                  <Label alignment="CENTER" layoutX="125.0" layoutY="255.0" text="Indirizzo" AnchorPane.topAnchor="255.0" />
+                  <Label alignment="CENTER" layoutX="93.0" layoutY="14.0" prefHeight="40.0" prefWidth="110.0" text="Cliente">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="297.0">
+               <children>
+                  <TextField fx:id="nome" layoutX="22.0" layoutY="107.0" prefHeight="25.0" prefWidth="237.0" AnchorPane.topAnchor="107.0" />
+                  <TextField fx:id="cognome" layoutX="22.0" layoutY="180.0" prefHeight="25.0" prefWidth="237.0" AnchorPane.topAnchor="180.0" />
+                  <TextField fx:id="indirizzo" layoutX="22.0" layoutY="253.0" prefHeight="25.0" prefWidth="237.0" AnchorPane.topAnchor="253.0" />
+                  <Button fx:id="cerca" layoutX="184.0" layoutY="359.0" mnemonicParsing="false" onAction="#cercaButton" prefHeight="25.0" prefWidth="76.0" text="Cerca" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

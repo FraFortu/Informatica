@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="noleggio.view.AutoNoleggioController">
+   <children>
+      <TableView fx:id="parcoAuto" layoutX="200.0" layoutY="93.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="firstColumn" minWidth="0.0" prefWidth="301.0" text="C1" />
+          <TableColumn fx:id="secondColumn" minWidth="0.0" prefWidth="315.0" text="C2" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

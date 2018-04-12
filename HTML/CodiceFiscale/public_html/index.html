@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+	<head>
+		<title>Codice Fiscale</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styles/try.css">
+	</head>
+	<body id="body">
+		<nav>
+			<p>
+				Made By Francesco Fortunato 
+			</p>
+		</nav>
+		<!--<header>
+			Ciao
+		</header>-->
+		<h1>Calcola il tuo codice fiscale</h1>
+		<!-- <p id="key"> Prova con gli stili </p> -->
+		<form>
+			<table>
+				<tr>
+					<td colspan="3">Nome <input id="nome" type="text"> </td>
+				</tr>
+				<tr>
+					<td colspan="3">Cognome <input id="cognome" type="text"> </td>
+				</tr>
+                                <tr>
+                                    <td> Sesso
+                                        <select id="gender">
+                                            <option>Uomo</option>
+                                            <option>Donna</option>
+                                        </select>
+                                    </td>
+                                </tr>
+				<tr>
+					<td colspan="1">
+						<!--<script type="text/javascript">
+							document.appendChild(new DropDownMenu);
+						</script>
+						da rivedere!
+						-->
+						Data di nascita <input type="date" id="date">
+					</td>
+				</tr>
+				<tr>
+                                    <td colspan="3">
+                                            Comune di provenienza 
+                                            <select id="comune">
+                                            </select>
+					</td>
+				</tr>
+			</table>
+			<button onclick="getCodice()">Calcola</button>
+		</form>
+                <footer>
+                    <p>Se non ti soddisfa, cerca un altro sito che calcola il codice fiscale...
+                    più serio.</p>
+                </footer>
+		<script src="scripts/calcolo.js" ></script>
+	</body>
+</html>

@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-mar-2018, 9.48.53
+    Author     : francesco.fortunato
+*/
+ form{
+   color: red;
+   font-family: verdana;
+   margin: 0 auto; 
+   width: max-content;
+ }
+ p#key{ color: green; }
+ table, th, tr {
+	 border: 1px solid black;
+ }
+ #body {
+     background-color: aquamarine;
+ }
+ h1 {
+    color: chocolate;
+    margin: 0 auto; 
+    width: max-content;
+ }
+ footer {
+    position:fixed;
+    bottom:0;
+ }
+ /*#background {
+	 background-image: url(http://lh3.googleusercontent.com/ODDC_Gh1QM3lz2qIWlUuTKTfQ5unQ0GPJ7U5sJFnlab68pmmwdeTngvl8-uXa0GMZ3Tc=w300);
+ }*/
+ /*table {
+	  align-content: center; 
+ }*/

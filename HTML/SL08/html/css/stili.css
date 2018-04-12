@@ -1,0 +1,136 @@
+#title {
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-size: 40px;
+    width: 600px;
+    float: left;
+}
+.search {
+    clear: left;
+}
+.width {
+    width: 250px;
+    /*border-right: solid darkslategray 1px;*/
+}
+.leftSeparator {
+    float: left;
+}
+.linea {
+    clear: both;
+}
+#cerca {
+    position: relative;
+    top: 10px;
+    right: 130px;
+}
+#textsearch {
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+#button {
+    position: relative;
+    top: 50px;
+    left: 240px;
+}
+/*#vertical {
+    float: left;
+    display:inline;
+    height:100%;
+    width:1px;
+}*/
+.left {
+    clear: left;
+    margin-left: 10px;
+    position: relative;
+    left: 20px;
+}
+.orange {
+    color: orange;
+}
+.texts {
+    float: left;
+    position: relative;
+    bottom: 35px;
+    left: 100px;
+}
+.blue {
+    color: rgb(0,0,255);
+}
+#forgot {
+    position: relative;
+    right: 100px;
+    bottom: 50px;
+}
+#signin {
+    position: relative;
+    right: 130px;
+    bottom: 40px;
+}
+.sposta {
+    position: relative;
+    bottom: 30px;
+}
+.repeat {
+    position: relative;
+    bottom: 65px;
+}
+.email {
+    position: relative;
+    bottom: 95px;
+}
+#check {
+    position: relative;
+    bottom: 80px;
+    right: 100px;
+}
+#terms {
+    position: relative;
+    bottom: 115px;
+    left: 100px;
+}
+#signup {
+    float: left;
+    position: relative;
+    bottom: 120px;
+    left: 60px;
+}
+.try {
+    float:left;
+    width: 300px;
+    border-right: solid black 1px;
+}
+.r {
+    float: right;
+    position: relative;
+    bottom: 20px;
+}
+.style {
+    background-color: slateblue;
+}
+.smussati {
+    margin-left: 30px;
+    width: 70%;
+    height: 150px;
+    float: left;
+    border-radius: 25px;
+}
+#libri {
+    width: 70%;
+}
+.margin {
+    float: left;
+    margin-left: 30px;
+    width: 70%; /* se riduco pagina si sposta*/
+}
+.margin2 {
+    float: left;
+    margin-left: 30px;
+    width: 35%;
+}
+.red {
+    color: crimson;
+}
+.end {
+    clear: both;
+}
